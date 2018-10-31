@@ -1,0 +1,73 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>02-Cáculo de IMC</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="grey lighten-3" onload="carregar();">
+    <div class="row center">
+            <div class="col">
+                <table class="card-panel centered-card striped">
+                    <caption class="card-panel blue-text">
+                       <h5> Cálculo de IMC</h5>
+                    </caption>
+                    <thead class="purple lighten-5">
+                        <tr>
+                            <th>IMC<i class="material-icons">insert_chart</i></th>
+                            <th>Classicação(a)<i class="material-icons">description</i></th>
+                        </tr>
+                    </thead>   
+                    <tbody>
+                            <tr>
+                              <td>Abaixo de 18,5</td>
+                              <td id="comp1">Subnutrição</td>
+                              
+                            </tr>
+                            <tr>
+                              <td>Entre 18,5 e 24,9</td>
+                              <td id="comp2">Peso Saudável</td>
+                            </tr>
+                            <tr>
+                              <td>Entre 25,0 e 29,9</td>
+                              <td id="comp3">Sobrepeso</td>
+                              
+                            </tr>
+                            <tr>
+                              <td>Entre 30,0 e 34,9</td>
+                              <td id="comp4">Obesidade grau1</td>
+                              
+                            </tr>
+                            <tr>
+                              <td>Entre 35,0 e 39,9 </td>
+                              <td id="comp5">Obesidade grau2</td>
+                              
+                            </tr>
+                            <tr>
+                              <td>Acima de 40</td>
+                              <td id="comp6">Obesidade grau 3</td>
+                            </tr>
+                            <tr>
+                                <td id="resultado"  colspan="2">
+                                   resultado
+                                </td>
+                            </tr>
+                            
+                          </tbody> 
+                </table>
+            </div>
+        </div>
+      </div>
+     <!--  Scripts-->
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
